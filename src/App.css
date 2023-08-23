@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../public/assets/fonts/ClashDisplay-Regular.otf') format('otf'),
+    url('../public/assets/fonts/ClashDisplay-Semibold.otf') format('otf');
+    /* Add other font properties like font-weight and font-style if needed */
+  }

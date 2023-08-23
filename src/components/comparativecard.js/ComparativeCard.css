@@ -1,0 +1,114 @@
+/* TransactionCard.css */
+.transaction-card {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 730px;
+    max-width: 800px; /* You can adjust the max-width as needed */
+    margin: 0 auto;
+    height: 290px;
+  }
+  
+  .left-section {
+    flex-basis: 60%;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .yellow {
+    background-color: #F4BE37;
+  }
+  
+  .purple {
+    background-color: #EDE1FF;
+  }
+  
+  
+  .left-rows {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  .digits{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .second-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600; 
+ 
+  }
+  
+  .right-section {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titles{
+    width: 183px;
+height: 15px;
+top: 756px;
+left: 638px;
+
+  }
+  
+  .bar-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    width: 30px; /* Adjust the width of bars as needed */
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .percentage {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .left-section,
+    .right-section {
+      flex-basis: 100%;
+    }
+  
+    .left-row {
+      flex-direction: column;
+    }
+  
+    .bar-chart {
+      flex-direction: row; /* Display bars in a row on smaller screens */
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .bar {
+      width: auto; /* Allow bars to expand to full width on smaller screens */
+      margin-right: 10px; /* Add space between bars */
+    }
+  }
+  

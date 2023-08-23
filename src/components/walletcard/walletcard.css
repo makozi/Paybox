@@ -1,0 +1,77 @@
+.card {
+    width: 100%;
+    max-width: 400px;  
+    background-color: #032282;
+    border-radius: 22px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+      padding-bottom: 25px;  
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left {
+    text-align: left;
+  }
+  
+  .header-right {
+    font-size: 24px;
+    color: #192749;
+  }
+  
+  .eye-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .card-footers {
+    margin-top: 30px;
+  }
+  
+  .action-button {
+    background-color: #2D4696;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+
+
+    width: 40%; 
+
+  }
+  
+  .add-funds {
+    background-color: #192749;
+  }
+  
+  .withdraw {
+    background-color: #192749;
+  }
+  
+
+
+  /* Media query for smaller screens */
+@media (max-width: 600px) {
+    .card-footers {
+      display: flex;
+      flex-direction: row; /* Make buttons appear in the same row */
+      justify-content: space-between;
+    }
+  
+    .action-button {
+      width: 48%; /* Adjust the width of the buttons for smaller screens */
+    }
+  }

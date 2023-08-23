@@ -1,0 +1,86 @@
+/* CustomCard.css */
+.custom-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    /* margin: 16px; */
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: left;
+  }
+  
+  .internal-card {
+    background-color: #f6faff;
+    border-radius: 8px;
+    padding: 6px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .card-content {
+    text-align: left;
+  }
+  .image-text-wrapper {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .send{
+margin-left: 10px;
+  }
+
+  .card-footer {
+    /* margin-top: 6px; 
+    padding-bottom: 9px;
+    display: flex; 
+    align-items: center; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 16px;
+    text-align: left; 
+  }
+
+  .details { 
+    /* margin: 0;  */
+    
+  }
+
+  .digits{
+    margin-top: 0px;
+  }
+  
+  .right-arrow {
+    /* width: 24px;
+    height: 24px; */
+  }
+  
+  .card-footer span {
+    font-size: 24px;
+    margin-left: 8px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .custom-card {
+      margin: 8px;
+    }
+  
+    .card-footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 12px;
+    }
+  
+    .card-footer span {
+      margin-top: 8px;
+      margin-left: 0;
+    }
+  }
+  
